@@ -2,8 +2,6 @@ package wahlin
 
 import (
 	"testing"
-
-	"github.com/pjocke/wahlin"
 )
 
 func Test(t *testing.T) {
@@ -94,7 +92,7 @@ func Test(t *testing.T) {
 	//words[""] = ""
 
 	for word, encoded := range words {
-		result := wahlin.Encode(word)
+		result := Encode(word)
 		if result != encoded {
 			t.Errorf("%s FAILED: wanted %s, got %s\n", word, encoded, result)
 		} else {
