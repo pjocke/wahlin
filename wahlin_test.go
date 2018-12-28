@@ -23,6 +23,7 @@ func Test(t *testing.T) {
 	words["Af"] = "AV"
 	words["Fa"] = "FA"
 	words["zFb"] = "SVB"
+	words["Dödsstraff"] = "DÖDSSTRAFF"
 
 	// G
 	words["Arg"] = "ARJ"
