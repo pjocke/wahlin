@@ -3,7 +3,7 @@ package wahlin
 import (
 	"testing"
 
-	"github.com/pjocke/soc2/wahlin"
+	"github.com/pjocke/wahlin"
 )
 
 func Test(t *testing.T) {
